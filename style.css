@@ -1,0 +1,45 @@
+
+a[href="https://www.google.com/"] {
+    color: green;
+  }
+
+a[href="https://www.google.com/doodles"] {
+    color: green;
+  }
+
+
+a[href="https://www.link-group.eu/"] {
+    color: red;
+  }
+  
+
+  #first-div p:nth-child(2)::after{
+    content: " NEW";
+    color: yellow;
+    }
+  
+  #first-div p:nth-child(3)::after{
+        content: " NEW";
+        color: yellow;
+    }
+ 
+  #first-div #second-div p:nth-child(even) {
+      color: red;
+     
+    }
+  #first-div #second-div p:nth-child(odd) {
+        color: blue;
+      }
+  
+  #first-div #second-div p:nth-child(even)::after {
+      content: "";
+    }
+    
+  #first-div #second-div p:nth-child(odd)::after {
+      content: "";
+    }
+
+
+    body>p:last-of-type:hover {
+        font-style: italic;
+      }
